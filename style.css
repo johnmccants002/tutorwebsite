@@ -23,8 +23,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #009b9e;
-  padding: 1rem;
+  background-image: url("tropicalbackground.jpg");
+  padding: 2rem;
 }
 
 /* Style the logo */
