@@ -430,6 +430,33 @@ footer p {
 
 /* Mobile Responsive styles */
 
+@media only screen and (max-width: 450px) {
+  header {
+    align-items: center;
+    justify-content: center;
+  }
+  header h1 {
+    padding-top: 4%;
+    font-size: 110%;
+  }
+
+  .menu-icon {
+    font-size: 80px; /* change to desired size */
+    cursor: pointer;
+    display: none;
+    padding: 14px;
+  }
+
+  .menu-icon .icon-bar {
+    display: block;
+    width: 28px;
+    height: 5px;
+    background-color: white;
+    margin-bottom: 4px;
+    margin-top: 4px;
+  }
+}
+
 @media only screen and (max-width: 968px) {
   /* Make the logo and navigation menu stack on small screens */
   header {
