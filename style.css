@@ -86,7 +86,7 @@ nav ul li a {
 
 .cta-button {
   display: inline-block;
-  background-color: blue;
+  background-image: url("tropicalbackground.jpg");
   text-decoration: none;
   padding: 3rem 6rem;
   color: white;
@@ -418,7 +418,12 @@ footer p {
   /* Make the logo and navigation menu stack on small screens */
   header {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    /* margin-left: 4%;
+    margin-right: 4%; */
+    /* background-color: gainsboro; */
+    background-image: url("tropicalbackground.jpg");
+    /* background-size: cover; */
   }
 
   .header-div {
@@ -479,6 +484,21 @@ footer p {
   .cta-button {
     font-size: 1.2rem;
     padding: 1.5rem 4rem;
+  }
+
+  .cta-button-book {
+    display: inline-block;
+    background-image: url("tropicalbackground.jpg");
+    text-decoration: none;
+    /* padding: 1rem 3rem; */
+    color: white;
+    text-align: center;
+    padding: 6%;
+
+    border-radius: 1rem;
+    transition: background-color 0.2s ease;
+    font-weight: bold;
+    font-size: 1.2rem;
   }
 
   /* Adjust the padding of the sections on small screens */
