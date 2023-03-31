@@ -462,6 +462,7 @@ footer p {
   .col img {
     height: 75%;
     width: 75%;
+    transform: scale(1.4);
   }
 
   .menu-icon {
@@ -735,7 +736,7 @@ footer p {
   }
 
   #github-image {
-    width: 130px;
+    width: 100px;
     height: 100px;
   }
 
