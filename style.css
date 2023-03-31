@@ -450,6 +450,16 @@ footer p {
     font-size: 110%;
   }
 
+  /* .container {
+    height: 80%;
+    width: 80%;
+  } */
+
+  .col img {
+    height: 75%;
+    width: 75%;
+  }
+
   .menu-icon {
     font-size: 80px; /* change to desired size */
     cursor: pointer;
