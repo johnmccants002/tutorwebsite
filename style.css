@@ -432,8 +432,9 @@ footer p {
 
 @media only screen and (max-width: 450px) {
   header {
-    align-items: center;
     justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
   }
   header h1 {
     padding-top: 4%;
@@ -461,7 +462,7 @@ footer p {
   /* Make the logo and navigation menu stack on small screens */
   header {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     /* margin-left: 4%;
     margin-right: 4%; */
     /* background-color: gainsboro; */
