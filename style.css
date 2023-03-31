@@ -454,6 +454,11 @@ footer p {
     font-size: 110%;
   }
 
+  #services a {
+    margin-top: 6%;
+    margin-bottom: 8%;
+  }
+
   /* .container {
     height: 80%;
     width: 80%;
