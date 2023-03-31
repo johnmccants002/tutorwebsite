@@ -105,7 +105,7 @@ nav ul li a {
   text-decoration: none;
   color: white;
   width: 100%;
-  padding: 8%;
+  padding: 3%;
 
   border-radius: 1rem;
   transition: background-color 0.2s ease;
@@ -404,6 +404,15 @@ footer p {
   font-weight: bold;
 }
 
+.col img:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+#form-title {
+  text-align: center;
+  padding-bottom: 5%;
+}
 /* //////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////
