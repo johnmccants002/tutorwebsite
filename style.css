@@ -172,7 +172,7 @@ input[type="submit"]:hover {
   margin-bottom: 80px;
 }
 
-#problem {
+#howitworks {
   text-align: center;
 }
 
@@ -424,6 +424,7 @@ footer p {
   .header-div {
     display: flex;
     flex-direction: row;
+    width: auto;
   }
 
   header h1 {
