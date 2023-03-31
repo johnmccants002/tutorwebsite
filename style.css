@@ -191,6 +191,7 @@ footer p {
 
 .logo-section {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: white;
@@ -446,7 +447,7 @@ footer p {
 
   /* Make the hero section full height on small screens */
   #hero {
-    height: 70vh;
+    height: 100%;
     /* justify-content: space-between; */
   }
 
