@@ -413,6 +413,21 @@ footer p {
   text-align: center;
   padding-bottom: 5%;
 }
+
+.cta-button-book {
+  display: inline-block;
+  background-image: url("tropicalbackground.jpg");
+  text-decoration: none;
+  /* padding: 1rem 3rem; */
+  color: white;
+  text-align: center;
+  padding: 6%;
+
+  border-radius: 1rem;
+  transition: background-color 0.2s ease;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
 /* //////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////
